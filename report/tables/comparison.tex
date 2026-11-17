@@ -1,0 +1,9 @@
+\begin{tabular}{lcccccc}
+\toprule
+Method & $f''(0)$ & $|$Error$|$ & Iter. & $\delta^*$ & $\theta$ & Time (ms) \\
+\midrule
+solve\_bvp (collocation) & 1.23258766 & 1.9e-10 & 4 & 0.64790 & 0.29234 & 27.4 \\
+solve\_ivp + Newton shooting & 1.23258766 & 1.8e-10 & 10 & 0.64790 & 0.29234 & 91.7 \\
+Scratch RK4 + Newton shooting & 1.23258766 & 2.7e-10 & 10 & 0.64790 & 0.29234 & 295.7 \\
+\bottomrule
+\end{tabular}
